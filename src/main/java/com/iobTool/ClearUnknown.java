@@ -7,6 +7,7 @@ import com.iobTool.util.PublicTool;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * This tool is used to quickly clear tags in unknown file
@@ -18,34 +19,47 @@ import java.util.List;
 
 public class ClearUnknown {
     private String unknownFilePath;
-    private String knownFilePath;
     private String testFilePath;
     private String dicFilePath;
     private List<String> tagString;
     private List<String> unknownKeepList;
-    private List<String> knownKeepList;
 
     public static void main(String[] args) throws IOException {
         System.out.println("准备开始...");
         ClearUnknown cu = new ClearUnknown();
-        cu.clearKnown();
-        cu.addWord();
+        cu.start();
     }
 
-    public ClearUnknown() {
-        knownKeepList = new ArrayList<>();
+    private ClearUnknown() {
         tagString = new ArrayList<>();
         unknownKeepList = new ArrayList<>();
         unknownFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.UNKNOWN;
-        knownFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.KNOWN;
         dicFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.DIC;
         testFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.TEST;
+    }
+
+    /**
+     * word: ABCDE => [ABC, BCD, CDE, ABCD, BCDE]
+     *
+     * @param list
+     */
+    private ArrayList<Object> enumerate(Object[] list) {
+        var tempList = new ArrayList<>();
+        for (Object object : list) {
+            String word = object.toString();
+            if (word.length() > 3)
+                for (int i = 3; i < word.length(); i++)
+                    for (int j = 0; j <= word.length() - i; j++)
+                        tempList.add(word.substring(j, j + i));
+        }
+        return tempList;
     }
 
     private void compareWord() throws IOException {
         System.out.println("去重前list的大小" + tagString.size());
         var newArray = tagString.stream().distinct().toArray();
         System.out.println("去重后list的大小" + newArray.length);
+        var newList = enumerate(newArray).stream().distinct().collect(Collectors.toList());
         FileReader fileReader = new FileReader(unknownFilePath);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line;
@@ -53,8 +67,8 @@ public class ClearUnknown {
         System.out.println("准备完毕，开始处理Unknown文件...");
         while ((line = bufferedReader.readLine()) != null) {
             var isContain = false;
-            for (int j = 0; j < newArray.length; j++) {
-                if (line.contains(newArray[j].toString())) {
+            for (int j = 0; j < newList.size(); j++) {
+                if (line.contains(newList.get(j).toString())) {
                     isContain = true;
                     break;
                 }
@@ -65,7 +79,7 @@ public class ClearUnknown {
             i++;
             if (i % 50 == 0)
                 System.out.print(".");
-            if (i % 500 == 0) {
+            if (i % 2500 == 0) {
                 System.out.println();
                 System.out.println("正在处理Unknown文件，已完成：" + i * 100 / 278315 + "%");
             }
@@ -74,7 +88,7 @@ public class ClearUnknown {
         PublicTool.writeLines(testFilePath, unknownKeepList);
     }
 
-    public void addWord() throws IOException {
+    private void start() throws IOException {
         FileReader fileReader = new FileReader(dicFilePath);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line;
@@ -87,8 +101,6 @@ public class ClearUnknown {
             while (startIndex < label.size()) {
                 //只有一个字
                 if (label.size() == 1) {
-//                    if (!tagString.contains(text.substring(0, 1))) {
-//                        System.out.println(text.substring(0, 1));
                     tagString.add(text.substring(0, 1));
                     break;
                 }
@@ -116,45 +128,17 @@ public class ClearUnknown {
 
                 //如果最后一位为单独的一个字
                 if (startIndex == label.size() - 1) {
-                    if (label.get(label.size() - 1).toString().contains("B-")) {
-//                        if (!tagString.contains(text.substring(label.size() - 1, label.size()))) {
-//                            System.out.println(text.substring(label.size() - 1, label.size()));
+                    if (label.get(label.size() - 1).toString().contains("B-"))
                         tagString.add(text.substring(label.size() - 1, label.size()));
-
-                    }
                     break;
                 }
 
                 //新词加入list
-//                if (!tagString.contains(text.substring(startIndex, endIndex))) {
-//                    System.out.println(text.substring(startIndex, endIndex));
                 tagString.add(text.substring(startIndex, endIndex));
 
                 startIndex = endIndex + 1;
             }
         }
         compareWord();
-    }
-
-    /**
-     * In known.txt, if a line's labels are all 'O', then delete this line.
-     *
-     * @throws IOException
-     */
-    public void clearKnown() throws IOException {
-        FileReader fileReader = new FileReader(knownFilePath);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-        String line;
-        while ((line = bufferedReader.readLine()) != null) {
-            var delete = true;
-            var json = JSON.parseObject(line);
-            var label = json.getJSONArray("label");
-            for (Object tag : label)
-                if (!tag.toString().equals("O"))
-                    delete = false;
-            if (!delete)
-                knownKeepList.add(line);
-        }
-        PublicTool.writeLines(testFilePath, knownKeepList);
     }
 }

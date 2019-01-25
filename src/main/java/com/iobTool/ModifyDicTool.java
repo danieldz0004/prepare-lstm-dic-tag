@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.iobTool.util.FileNameUtil;
 import com.iobTool.util.InfoUtil;
+import com.iobTool.util.PublicTool;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -75,7 +76,7 @@ public class ModifyDicTool {
 
     public void mergeAndStore() throws IOException {
         keepLines.addAll(changedLines);
-        writeLines();
+        PublicTool.writeLines(filePath, keepLines);
     }
 
     public void readLines(String filename, String word) throws IOException {
@@ -92,14 +93,6 @@ public class ModifyDicTool {
         bufferedReader.close();
     }
 
-    public void writeLines() throws IOException {
-        FileOutputStream fos = new FileOutputStream(filePath);
-        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(fos));
-        for (String line : keepLines)
-            writer.write(line + "\r\n");
-        writer.close();
-        fos.close();
-    }
 
     public void modifyIob(String word) throws IOException {
         String newTag = "";
