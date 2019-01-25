@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6117961c-bb65-4e9e-8032-53531b5b38a1" name="Default Changelist" comment="" />
+    <list default="true" id="6117961c-bb65-4e9e-8032-53531b5b38a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iobTool/ModifyDicTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/iobTool/ModifyDicTool.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+            <state relative-caret-position="405">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="1134">
+              <caret line="139" column="13" lean-forward="true" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2187">
+              <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="263">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -45,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/InfoUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="425">
               <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="59" />
             </state>
           </provider>
@@ -54,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="216">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -84,8 +104,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ModifyDicTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/InfoUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java" />
       </list>
     </option>
   </component>
@@ -102,38 +124,6 @@
     <option name="width" value="975" />
     <option name="height" value="1048" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>PerformanceLintAndroid</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -143,7 +133,52 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="prepare-lstm-dic-tag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepare-lstm-dic-tag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepare-lstm-dic-tag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepare-lstm-dic-tag" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepare-lstm-dic-tag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepare-lstm-dic-tag" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepare-lstm-dic-tag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepare-lstm-dic-tag" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepare-lstm-dic-tag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepare-lstm-dic-tag" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iobTool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepare-lstm-dic-tag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepare-lstm-dic-tag" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iobTool" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -151,14 +186,15 @@
     <property name="SearchEverywhereHistoryKey" value="java sdk&#9;null&#9;null&#10;java&#9;ACTION&#9;ConfigureKotlinJsInProject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548299382220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548402770828" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/commit-template-idea-plugin.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -177,7 +213,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClearUnknown">
+  <component name="RunManager" selected="Application.ClearKnown">
+    <configuration name="ClearKnown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iobTool.ClearKnown" />
+      <module name="ModifyDicTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iobTool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClearUnknown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.2" />
       <option name="MAIN_CLASS_NAME" value="com.iobTool.ClearUnknown" />
@@ -208,9 +257,11 @@
     <list>
       <item itemvalue="Application.ModifyDicTool" />
       <item itemvalue="Application.ClearUnknown" />
+      <item itemvalue="Application.ClearKnown" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClearKnown" />
         <item itemvalue="Application.ClearUnknown" />
         <item itemvalue="Application.ModifyDicTool" />
       </list>
@@ -229,6 +280,7 @@
       <workItem from="1547535048003" duration="11865000" />
       <workItem from="1547547262166" duration="3377000" />
       <workItem from="1547603281568" duration="5978000" />
+      <workItem from="1548322132290" duration="10703000" />
     </task>
     <task id="LOCAL-00001" summary="A tool that it can change LSTM Model's tag">
       <created>1547607709557</created>
@@ -248,7 +300,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21651000" />
+    <option name="totallyTimeSpent" value="32361000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,20 +312,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.295302" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.52437705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31310943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4767064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -313,16 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -330,31 +372,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/InfoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="425">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="216">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="1134">
+          <caret line="139" column="13" lean-forward="true" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,7 +460,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -424,6 +486,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: com.alibaba:fastjson:1.2.52</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
