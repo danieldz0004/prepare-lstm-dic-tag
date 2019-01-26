@@ -16,7 +16,7 @@ import java.util.Scanner;
  * This tool is used to change tags in iob file
  *
  * @Author: DanielDz
- * @Date: 2019/1/15
+ * @Date: 2019/Jan/15
  */
 
 public class ModifyDicTool {
