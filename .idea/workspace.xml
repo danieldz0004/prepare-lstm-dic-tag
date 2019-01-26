@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6117961c-bb65-4e9e-8032-53531b5b38a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iobTool/ModifyDicTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/iobTool/ModifyDicTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iobTool/util/FileNameUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/iobTool/util/FileNameUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="135">
               <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="139" column="13" lean-forward="true" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+            <state relative-caret-position="2430">
+              <caret line="97" column="51" selection-start-line="95" selection-start-column="12" selection-end-line="97" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -44,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2187">
-              <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+            <state relative-caret-position="27">
+              <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="351">
               <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
@@ -65,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/InfoUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="540">
               <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="59" />
             </state>
           </provider>
@@ -75,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -105,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/InfoUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java" />
       </list>
     </option>
@@ -119,10 +115,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="702" />
-    <option name="y" value="112" />
-    <option name="width" value="975" />
-    <option name="height" value="1048" />
+    <option name="x" value="1096" />
+    <option name="width" value="831" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,13 +174,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="java sdk&#9;null&#9;null&#10;java&#9;ACTION&#9;ConfigureKotlinJsInProject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548402770828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548416974735" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/commit-template-idea-plugin.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -280,7 +275,8 @@
       <workItem from="1547535048003" duration="11865000" />
       <workItem from="1547547262166" duration="3377000" />
       <workItem from="1547603281568" duration="5978000" />
-      <workItem from="1548322132290" duration="10703000" />
+      <workItem from="1548322132290" duration="23834000" />
+      <workItem from="1548467110272" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="A tool that it can change LSTM Model's tag">
       <created>1547607709557</created>
@@ -296,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548237879546</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(Add Three Tools): Add two tools to deal with known.txt, one tool to deal with unknown&#10;&#10;1. delete all 'O' and find out duplicated word in a single line 2. substring of dic's word is&#10;considered that should not appear in unknown dic">
+      <created>1548403253378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548403253378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32361000" />
+    <option name="totallyTimeSpent" value="45526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,19 +316,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31310943" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4767064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21885157" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40520042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -334,7 +337,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,7 +358,8 @@
     <MESSAGE value="A tool that it can change LSTM Model's tag" />
     <MESSAGE value="新增算法" />
     <MESSAGE value="feat(Boost the process of compare): the speed is two times than before&#10;&#10;use stream() method to retrieve distinct elements in list that it can speed up the process. The JDK&#10;must be 10+, otherwise the programme will not run." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Boost the process of compare): the speed is two times than before&#10;&#10;use stream() method to retrieve distinct elements in list that it can speed up the process. The JDK&#10;must be 10+, otherwise the programme will not run." />
+    <MESSAGE value="feat(Add Three Tools): Add two tools to deal with known.txt, one tool to deal with unknown&#10;&#10;1. delete all 'O' and find out duplicated word in a single line 2. substring of dic's word is&#10;considered that should not appear in unknown dic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Add Three Tools): Add two tools to deal with known.txt, one tool to deal with unknown&#10;&#10;1. delete all 'O' and find out duplicated word in a single line 2. substring of dic's word is&#10;considered that should not appear in unknown dic" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -374,7 +379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ModifyDicTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="135">
           <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -382,38 +387,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/InfoUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="59" />
+        <state relative-caret-position="2430">
+          <caret line="97" column="51" selection-start-line="95" selection-start-column="12" selection-end-line="97" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/PublicTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="351">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/InfoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/util/FileNameUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearUnknown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="139" column="13" lean-forward="true" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iobTool/ClearKnown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2187">
-          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+        <state relative-caret-position="27">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
