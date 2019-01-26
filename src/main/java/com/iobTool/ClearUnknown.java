@@ -39,7 +39,7 @@ public class ClearUnknown {
     }
 
     /**
-     * word: ABCDE => [ABC, BCD, CDE, ABCD, BCDE]
+     * word: ABCDE => [AB, BC, CD, DE, ABC, BCD, CDE, ABCD, BCDE]
      *
      * @param list
      */

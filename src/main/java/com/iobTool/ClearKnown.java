@@ -29,17 +29,17 @@ public class ClearKnown {
 
     public static void main(String[] args) throws IOException {
         ClearKnown ck = new ClearKnown();
-////        ck.remove();
+        ck.remove();
         ck.findDuplicated();
     }
 
     public ClearKnown() {
         testFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.TEST;
-        noDuplicatedList = new ArrayList<>();
         knownFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.KNOWN;
         tempFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.TEMP;
         knownKeepList = new ArrayList<>();
         needModifyList = new ArrayList<>();
+        noDuplicatedList = new ArrayList<>();
     }
 
     /**
@@ -89,9 +89,9 @@ public class ClearKnown {
                 int count = (text.length() - newLine.length()) / word.length();
                 if (count > 1) {
                     needModifyList.add(line + ";" + word);
+//                    needModifyList.add(line);
                     break;
                 }
-
                 startIndex = endIndex + 1;
             }
         }
@@ -145,24 +145,26 @@ public class ClearKnown {
             tempTextList.add(text.substring(index2.get(index2.size() - 1)));
             tempLabelList.add(label.subList(index2.get(index2.size() - 1), label.size()).toString());
             //construct new text
-            String newText = "";
-            String newLabel = "";
+            StringBuilder newText = new StringBuilder();
+            StringBuilder newLabel = new StringBuilder();
             for (String letter : tempTextList)
-                if (letter.trim() != "")
-                    newText += letter;
+                if (!letter.trim().equals(""))
+                    newText.append(letter);
 
             for (String tag : tempLabelList)
-                if (tag.trim() != "")
-                    newLabel += tag;
+                if (!tag.trim().equals(""))
+                    newLabel.append(tag);
 
-            newLabel = newLabel.replace("][", ",").replace("[", "").replace("]", "");
-            String[] temp = newLabel.split(",");
-            newLabel = "";
+            //reformat labels
+            newLabel = new StringBuilder(newLabel.toString().replace("][", ",").replace("[", "").replace("]", ""));
+            String[] temp = newLabel.toString().split(",");
+            newLabel = null;
+            //the last label should not follow with a comma
             for (int t = 0; t < temp.length; t++) {
                 if (t != temp.length - 1)
-                    newLabel += "\"" + temp[t].trim() + "\",";
+                    newLabel.append("\"").append(temp[t].trim()).append("\",");
                 else
-                    newLabel += "\"" + temp[t].trim() + "\"";
+                    newLabel.append("\"").append(temp[t].trim()).append("\"");
             }
             System.out.println("{\"text\":\"" + newText + "\",\"label\":[" + newLabel + "]}");
             noDuplicatedList.add("{\"text\":\"" + newText + "\",\"label\":[" + newLabel + "]}");
@@ -171,7 +173,7 @@ public class ClearKnown {
     }
 
     /**
-     * In known.txt, if a line's labels are all 'O', then delete this line.
+     * In known.txt, if a line's labels are all “O”, then delete this line.
      *
      * @throws IOException
      */
