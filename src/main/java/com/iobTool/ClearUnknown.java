@@ -1,6 +1,7 @@
 package com.iobTool;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.iobTool.util.FileNameUtil;
 import com.iobTool.util.PublicTool;
 
@@ -27,7 +28,8 @@ public class ClearUnknown {
     public static void main(String[] args) throws IOException {
         System.out.println("准备开始...");
         ClearUnknown cu = new ClearUnknown();
-        cu.start();
+//        cu.start();
+        cu.rebuildUnknown();
     }
 
     private ClearUnknown() {
@@ -36,6 +38,29 @@ public class ClearUnknown {
         unknownFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.UNKNOWN;
         dicFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.DIC;
         testFilePath = FileNameUtil.ROOT_PATH + FileNameUtil.TEST;
+    }
+
+    private void rebuildUnknown() throws IOException {
+        FileReader fileReader = new FileReader(unknownFilePath);
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
+        String line;
+        var newList = new ArrayList<String>();
+        while ((line = bufferedReader.readLine()) != null) {
+            var json = JSON.parseObject(line);
+            String text = json.getString("text");
+            int length = text.length();
+            StringBuilder str = new StringBuilder("\"O\"" + ",");
+            for (int i = 1; i < length; i++) {
+                if (i != length - 1)
+                    str.append("\"O\"" + ",");
+                else
+                    str.append("\"O\"");
+            }
+            String newLine = "{\"text\":\"" + text + "\",\"label\":[" + str + "]}";
+            System.out.println(newLine);
+            newList.add(newLine);
+        }
+        PublicTool.writeLines(unknownFilePath, newList);
     }
 
     /**
